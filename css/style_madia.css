@@ -1,0 +1,143 @@
+/* =========================
+   DESKTOP - 1024px+
+========================= */
+
+@media screen and (min-width: 1024px) {
+  /* =========================
+     NAVBAR
+  ========================= */
+
+  .navbar__nav {
+    display: flex;
+  }
+
+  .navbar__nav ul {
+    display: flex;
+    align-content: space-between;
+  }
+
+  .navbar__actions {
+    display: block;
+    width: auto;
+  }
+
+  .navbar__mobile-toggle {
+    display: none;
+  }
+
+  .navbar__wrapper {
+    align-content: space-between;
+    align-items: center;
+  }
+
+  .navbar__wrapper:hover {
+    flex-direction: row;
+  }
+
+  .navbar__wrapper:hover .navbar__actions {
+    display: block;
+    width: auto;
+  }
+
+  /* =========================
+     HERO
+  ========================= */
+
+  .hero__wrapper {
+    display: flex;
+    gap: 50px;
+  }
+
+  .hero__content {
+    flex: 1;
+  }
+
+  .hero__visual {
+    flex: 1;
+  }
+
+  .hero__image-container {
+    transform: rotate(5deg);
+    height: 400px;
+  }
+
+  /* =========================
+     ARTICLES
+  ========================= */
+
+  .article-card {
+    display: flex;
+    gap: 20px;
+  }
+
+  .article-card__image-wrapper {
+    flex: 1;
+  }
+
+  .article-card__content {
+    flex: 4;
+  }
+
+  .article-card__meta {
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .articles-feed__wrapper {
+    display: flex;
+    position: relative;
+    gap: 40px;
+  }
+
+  .articles-feed__main {
+    flex: 2;
+  }
+
+  .articles-feed__sidebar {
+    flex: 1;
+    position: sticky;
+    top: 20px;
+  }
+
+  /* =========================
+     SECTION HEADER
+  ========================= */
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  /* =========================
+     AUTHORS
+  ========================= */
+
+  .authors__grid {
+    flex-direction: row;
+  }
+
+  /* =========================
+     COMMUNITY
+  ========================= */
+
+  .community__wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  /* =========================
+     FOOTER
+  ========================= */
+
+  .footer__top {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+  }
+}
